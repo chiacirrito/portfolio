@@ -1,0 +1,27 @@
+.Data {
+  margin: 30px;
+  padding: 30px;
+  background-color: #f2b9aca1;
+
+  .dati {
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      li {
+        color: black;
+        font-size: 12pt;
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .Data {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+}

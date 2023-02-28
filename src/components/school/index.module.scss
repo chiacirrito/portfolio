@@ -1,0 +1,42 @@
+.Schools {
+  background-color: #f8dccfbc;
+  color: black;
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+
+  .icons {
+    ul {
+      li {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 10px 5px;
+      }
+    }
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    li {
+      font-size: 13pt;
+      display: flex;
+      padding: 10px 0;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Schools {
+    width: 50%;
+
+    .icons {
+      ul {
+        li {
+          gap: 20px;
+        }
+      }
+    }
+  }
+}

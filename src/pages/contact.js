@@ -2,14 +2,11 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.scss";
 import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
-import Data from "@/components/data";
-import SkillsTech from "@/components/skillsTech";
-import Schools from "@/components/school";
-import Projects from "@/components/projects/Projects";
+import Social from "@/components/social";
+import Form from "@/components/form";
 import Footer from "@/components/footer";
-import "@/styles/Home.module.scss";
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <Head>
@@ -21,13 +18,8 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar />
         <Hero />
-        <div className={styles.div}>
-          <Data />
-          <Schools />
-        </div>
-
-        <SkillsTech />
-        <Projects />
+        <Social />
+        <Form />
         <Footer />
       </main>
     </>

@@ -1,0 +1,26 @@
+.Navbar {
+  width: 100%;
+
+  ul {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding: 10px;
+
+    li {
+      font-size: 15pt;
+      list-style-type: none;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Navbar {
+    padding: 5px 20px;
+    height: 50px;
+
+    li:hover {
+      font-size: 20pt;
+    }
+  }
+}
