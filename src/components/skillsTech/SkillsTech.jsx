@@ -4,6 +4,9 @@ import {
   FaHtml5,
   FaWordpress,
   FaSass,
+  FaAws,
+  FaGit,
+  FaGithub,
 } from "react-icons/fa";
 import {
   SiWoocommerce,
@@ -36,6 +39,12 @@ const SkillsTech = () => {
             <SiJavascript />
           </li>
           <li>
+            <FaGit />
+          </li>
+          <li>
+            <FaGithub />
+          </li>
+          <li>
             <SiMysql />
           </li>
           <li>
@@ -46,6 +55,9 @@ const SkillsTech = () => {
           </li>
           <li className={styles.special}>
             <SiWoocommerce />
+          </li>
+          <li>
+            <FaAws />
           </li>
         </ul>
       </div>
