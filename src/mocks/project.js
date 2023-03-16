@@ -3,7 +3,7 @@ export const ProjectList = [
     id: 1,
     title: "Booking.com",
     data: "[ 02/2023 ]",
-    link: "https://project-cb5-yin-r76h.vercel.app/",
+    link: "https://project-cb5-yin-r76h-pgjkovitz-chiacirrito.vercel.app/",
     img: "https://play-lh.googleusercontent.com/eJuvWSnbPwEWAQCYwl8i9nPJXRzTv94JSYGGrKIu0qeuG_5wgYtb982-2F_jOGtIytY",
     description: "Realizzazione clone Booking in team (metodologia agile).",
     tech: "{React, Next.js, CSS, Sass}",
