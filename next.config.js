@@ -8,6 +8,7 @@ const nextConfig = {
       "play-lh.googleusercontent.com",
       "picsum.photos",
       "img.freepik.com",
+      "encrypted-tbn0.gstatic.com",
     ],
   },
 };

@@ -11,8 +11,8 @@ const Schools = () => {
         <ul>
           <li>
             <FaDesktop />
-            <BiLibrary />
             <MdSchool />
+            <BiLibrary />
           </li>
         </ul>
       </div>
