@@ -9,6 +9,7 @@ const nextConfig = {
       "picsum.photos",
       "img.freepik.com",
       "encrypted-tbn0.gstatic.com",
+      "media.licdn.com",
     ],
   },
 };

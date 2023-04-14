@@ -9,11 +9,14 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import {
+  SiRedux,
+  SiBootstrap,
   SiWoocommerce,
   SiJavascript,
   SiMysql,
   SiPhpmyadmin,
 } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
 
 import styles from "./index.module.scss";
 
@@ -27,6 +30,12 @@ const SkillsTech = () => {
             <FaReact />
           </li>
           <li>
+            <TbBrandReactNative />
+          </li>
+          <li>
+            <SiRedux />
+          </li>
+          <li>
             <FaHtml5 />
           </li>
           <li>
@@ -34,6 +43,9 @@ const SkillsTech = () => {
           </li>
           <li>
             <FaSass />
+          </li>
+          <li>
+            <SiBootstrap />
           </li>
           <li>
             <SiJavascript />

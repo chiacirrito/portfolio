@@ -1,6 +1,22 @@
 export const ProjectList = [
   {
     id: 1,
+    title: "Dates App",
+    data: "[04/2023]",
+    link: "https://redux-to-do-woad.vercel.app/",
+    img: "https://media.licdn.com/dms/image/D4E2DAQF4-07d0qXtMg/profile-treasury-image-shrink_1920_1920/0/1681483826174?e=1682092800&v=beta&t=6dfChptD170UYEnziE5GkvltB6B18C71u6qIA2nqzKo",
+    description: "{React, Redux, BootStrap, Sass}",
+  },
+  {
+    id: 2,
+    title: "To Do App",
+    data: "[04/2023]",
+    link: "https://redux-to-do-woad.vercel.app/",
+    img: "https://media.licdn.com/dms/image/D4E2DAQFt4gF6Ayxx7w/profile-treasury-image-shrink_1920_1920/0/1681399122657?e=1682092800&v=beta&t=CW3QMOe96273-X5nrwqncfCdv00WNOlwsKRVfSiGi50",
+    description: "{React, Redux, Sass}",
+  },
+  {
+    id: 3,
     title: "Note-ToDo App",
     data: "[03/2023]",
     link: "https://next-to-do-note.vercel.app/note",
@@ -9,7 +25,7 @@ export const ProjectList = [
     tech: "{React, Next.js, Javascript, Sass}",
   },
   {
-    id: 2,
+    id: 4,
     title: "Booking.com",
     data: "[ 02/2023 ]",
     link: "https://project-cb5-yin-r76h-pgjkovitz-chiacirrito.vercel.app/",
@@ -18,16 +34,7 @@ export const ProjectList = [
     tech: "{React, Next.js, CSS, Sass}",
   },
   {
-    id: 3,
-    title: "Calendar App",
-    data: "[ 10/2022 ]",
-    link: "https://chiacirrito.github.io/calendar-app/",
-    img: "https://www.gossip.sm/wp-content/uploads/2020/01/taglio.jpg",
-    description: "Appointment management of the beauty center",
-    tech: "{HTML, CSS, JS}",
-  },
-  {
-    id: 4,
+    id: 5,
     title: "Wine App",
     data: "[ 01/2023 ]",
     link: "https://wine-app-next.vercel.app/",
@@ -36,7 +43,17 @@ export const ProjectList = [
     tech: "{React, Next.js, Scss}",
   },
   {
-    id: 5,
+    id: 6,
+    title: "Calendar App",
+    data: "[ 10/2022 ]",
+    link: "https://chiacirrito.github.io/calendar-app/",
+    img: "https://www.gossip.sm/wp-content/uploads/2020/01/taglio.jpg",
+    description: "Appointment management of the beauty center",
+    tech: "{HTML, CSS, JS}",
+  },
+
+  {
+    id: 7,
     title: "Nicoletta.napoli.it",
     data: "[ 02/2022 ]",
     link: "www.nicolettanapoli.it",
