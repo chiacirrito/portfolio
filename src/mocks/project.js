@@ -3,7 +3,7 @@ export const ProjectList = [
     id: 1,
     title: "Dates App",
     data: "[04/2023]",
-    link: "https://redux-to-do-woad.vercel.app/",
+    link: "https://daily-planner-ruby.vercel.app/",
     img: "https://media.licdn.com/dms/image/D4E2DAQF4-07d0qXtMg/profile-treasury-image-shrink_1920_1920/0/1681483826174?e=1682092800&v=beta&t=6dfChptD170UYEnziE5GkvltB6B18C71u6qIA2nqzKo",
     description: "{React, Redux, BootStrap, Sass}",
   },
