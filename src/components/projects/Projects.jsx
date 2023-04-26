@@ -13,8 +13,8 @@ const Projects = () => {
               <Image
                 src={project.img}
                 alt="img"
-                width={220}
-                height={200}
+                width={100}
+                height={100}
                 priority={true}
               />
             </Link>

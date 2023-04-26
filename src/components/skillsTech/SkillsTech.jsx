@@ -23,7 +23,6 @@ import styles from "./index.module.scss";
 const SkillsTech = () => {
   return (
     <div className={styles.Skills}>
-      <h3>Computer Skills</h3>
       <div className={styles.div}>
         <ul>
           <li>

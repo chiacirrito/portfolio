@@ -30,8 +30,8 @@ export const ProjectList = [
     data: "[ 02/2023 ]",
     link: "https://project-cb5-yin-r76h-pgjkovitz-chiacirrito.vercel.app/",
     img: "https://play-lh.googleusercontent.com/eJuvWSnbPwEWAQCYwl8i9nPJXRzTv94JSYGGrKIu0qeuG_5wgYtb982-2F_jOGtIytY",
-    description: "Clone Booking in team (agile methodology)",
-    tech: "{React, Next.js, CSS, Sass}",
+    description: "Clone Booking in team ",
+    tech: "{React, Next.js, CSS, Sass} (agile methodology)",
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ export const ProjectList = [
     data: "[ 01/2023 ]",
     link: "https://wine-app-next.vercel.app/",
     img: "https://img.freepik.com/free-photo/top-view-charming-black-grapes-overturned-wine-glass-wine-bottle-wine-opener-walnut-dark-table_140725-145864.jpg?w=996&t=st=1675593989~exp=1675594589~hmac=6051de836a7961058111d35d3eeebecd19c3513532ab047ffc2fddba2ac4af55",
-    description: "App che presenta lista di vini e rispettivi produttori",
+    description: "Lista di vini e rispettivi produttori",
     tech: "{React, Next.js, Scss}",
   },
   {
@@ -48,7 +48,7 @@ export const ProjectList = [
     data: "[ 10/2022 ]",
     link: "https://chiacirrito.github.io/calendar-app/",
     img: "https://www.gossip.sm/wp-content/uploads/2020/01/taglio.jpg",
-    description: "Appointment management of the beauty center",
+    description: "Appuntamenti di un centro estetico",
     tech: "{HTML, CSS, JS}",
   },
 
@@ -58,7 +58,7 @@ export const ProjectList = [
     data: "[ 02/2022 ]",
     link: "www.nicolettanapoli.it",
     img: "https://nicolettanapoli.it/wp-content/uploads/2022/07/cropped-header-sito.jpg",
-    description: "Site for Nicoletta Napoli",
+    description: "Sito vetrina per Nicoletta Napoli",
     tech: "{Wordpress}",
   },
 ];
