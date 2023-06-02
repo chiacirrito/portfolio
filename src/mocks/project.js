@@ -1,22 +1,30 @@
 export const ProjectList = [
   {
     id: 1,
-    title: "Dates App",
-    data: "[04/2023]",
-    link: "https://daily-planner-ruby.vercel.app/",
-    img: "https://media.licdn.com/dms/image/D4E2DAQF4-07d0qXtMg/profile-treasury-image-shrink_1920_1920/0/1681483826174?e=1682092800&v=beta&t=6dfChptD170UYEnziE5GkvltB6B18C71u6qIA2nqzKo",
-    description: "{React, Redux, BootStrap, Sass}",
+    title: "Sweet Blog",
+    data: "[05/2023]",
+    link: "https://sweetblog.vercel.app/",
+    img: "https://img.freepik.com/premium-vector/cake-icon-logo-design_586739-172.jpg",
+    description: "{Next, Animation Css, Sass}",
   },
   {
     id: 2,
-    title: "To Do App",
+    title: "Dates App",
     data: "[04/2023]",
-    link: "https://redux-to-do-woad.vercel.app/",
-    img: "https://media.licdn.com/dms/image/D4E2DAQFt4gF6Ayxx7w/profile-treasury-image-shrink_1920_1920/0/1681399122657?e=1682092800&v=beta&t=CW3QMOe96273-X5nrwqncfCdv00WNOlwsKRVfSiGi50",
-    description: "{React, Redux, Sass}",
+    link: "https://daily-planner-ruby.vercel.app/",
+    img: "https://thumb.ac-illust.com/cd/cd010b171c2da41c648d288945c55051_t.jpeg",
+    description: "{React, Redux, BootStrap, Sass}",
   },
   {
     id: 3,
+    title: "To Do App",
+    data: "[04/2023]",
+    link: "https://redux-to-do-woad.vercel.app/",
+    img: "https://w7.pngwing.com/pngs/670/265/png-transparent-checkmark-done-exam-list-pencil-todo-xomo-basics-icon.png",
+    description: "{React, Redux, Sass}",
+  },
+  {
+    id: 4,
     title: "Note-ToDo App",
     data: "[03/2023]",
     link: "https://next-to-do-note.vercel.app/note",
@@ -25,7 +33,7 @@ export const ProjectList = [
     tech: "{React, Next.js, Javascript, Sass}",
   },
   {
-    id: 4,
+    id: 5,
     title: "Booking.com",
     data: "[ 02/2023 ]",
     link: "https://project-cb5-yin-r76h-pgjkovitz-chiacirrito.vercel.app/",
@@ -34,7 +42,7 @@ export const ProjectList = [
     tech: "{React, Next.js, CSS, Sass} (agile methodology)",
   },
   {
-    id: 5,
+    id: 6,
     title: "Wine App",
     data: "[ 01/2023 ]",
     link: "https://wine-app-next.vercel.app/",
@@ -43,7 +51,7 @@ export const ProjectList = [
     tech: "{React, Next.js, Scss}",
   },
   {
-    id: 6,
+    id: 7,
     title: "Calendar App",
     data: "[ 10/2022 ]",
     link: "https://chiacirrito.github.io/calendar-app/",
@@ -53,7 +61,7 @@ export const ProjectList = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Nicoletta.napoli.it",
     data: "[ 02/2022 ]",
     link: "www.nicolettanapoli.it",

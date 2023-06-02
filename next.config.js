@@ -10,6 +10,8 @@ const nextConfig = {
       "img.freepik.com",
       "encrypted-tbn0.gstatic.com",
       "media.licdn.com",
+      "thumb.ac-illust.com",
+      "w7.pngwing.com",
     ],
   },
 };
