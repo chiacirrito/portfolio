@@ -1,6 +1,5 @@
 import { ProjectList } from "@/mocks/project";
 import Link from "next/link";
-import Image from "next/image";
 import styles from "./index.module.scss";
 
 const Projects = () => {
@@ -10,20 +9,11 @@ const Projects = () => {
         {ProjectList.map((project) => (
           <div className={styles.div} key={project.id}>
             <Link href={project.link}>
-              <Image
-                src={project.img}
-                alt="img"
-                width={80}
-                height={80}
-                priority={true}
-              />
+              <h1>{project.img}</h1>
+              <h3>{project.title}</h3>
+              <h4>{project.data}</h4>
+              <h5>{project.tech}</h5>
             </Link>
-            <h3>
-              <Link href={project.link}>{project.title}</Link>
-            </h3>
-            <h4>{project.data}</h4>
-            <h4>{project.description}</h4>
-            <h5>{project.tech}</h5>
           </div>
         ))}
       </div>

@@ -1,38 +1,36 @@
 .Projects {
-  margin: 10px;
-  padding: 30px 10px;
+  margin: 30px;
 
   .card {
     display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 9pt;
     gap: 10px;
   }
 
   .div {
-    border: 1px solid whitesmoke;
-    background-color: rgba(255, 255, 255, 0.981);
+    background-color: #f2b9accf;
     color: black;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 20px;
-    height: 300px;
-    width: 210px;
-    padding: 30px;
+    padding: 15px;
+    height: 200px;
 
-    img {
-      display: flex;
-      object-fit: cover;
+    h1 {
+      font-size: 25pt;
+      padding: 10px;
     }
-
-    img:hover {
-      filter: sepia(100%);
-      -webkit-filter: sepia(100%);
+    h4 {
+      padding: 10px;
     }
+  }
+  .div:hover {
+    width: 260px;
+    background-color: #c99a8fcf;
+    cursor: pointer;
   }
 }
 @media screen and (max-width: 768px) {
