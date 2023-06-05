@@ -7,20 +7,20 @@ import styles from "./index.module.scss";
 const Schools = () => {
   return (
     <div className={styles.Schools}>
-      <div className={styles.icons}>
-        <ul>
-          <li>
-            <FaDesktop />
-            <MdSchool />
-            <BiLibrary />
-          </li>
-        </ul>
-      </div>
       <div className={styles.div}>
         {SchoolList.map((school) => (
           <ul className={styles.ul}>
             <li>
-              {school.title} | {school.name} | {school.year}
+              <FaDesktop />
+              {school.edge}
+            </li>
+            <li>
+              <MdSchool />
+              {school.uni}
+            </li>
+            <li>
+              <BiLibrary />
+              {school.lic}
             </li>
           </ul>
         ))}
