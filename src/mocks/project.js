@@ -37,7 +37,7 @@ export const ProjectList = [
     link: "https://next-to-do-note.vercel.app/note",
     img: <MdEditNote />,
     description: "Note e To Do List",
-    tech: "{React, Next.js, Javascript, Sass}",
+    tech: "{React, Next.js, Sass}",
   },
   {
     id: 5,
