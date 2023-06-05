@@ -46,7 +46,7 @@ export const ProjectList = [
     link: "https://project-cb5-yin-r76h-pgjkovitz-chiacirrito.vercel.app/",
     img: <TbBrandBooking />,
     description: "Clone Booking in team ",
-    tech: "{React, Next.js, CSS, Sass} (agile methodology)",
+    tech: "{React, Next.js, Sass, (agile methodology)}",
   },
   {
     id: 6,

@@ -6,7 +6,7 @@ const Hero = ({ dati }) => {
 
   return (
     <div className={styles.Hero}>
-      <h1>Front-End Developer</h1>
+      <h2>Front-End Developer</h2>
       <Image
         src="/foto.jpg"
         alt="foto profilo"

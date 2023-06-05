@@ -1,10 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Ysabeau:wght@100&display=swap");
+
 .Hero {
   width: 100%;
   padding: 10px;
   background-color: #8f6e76;
   color: black;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "Ysabeau", sans-serif;
+  text-shadow: 0.5px 0.4px 0.3px #49383c;
 
   .foto {
     display: flex;

@@ -1,35 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Ysabeau:wght@100&display=swap");
+
 .Projects {
   margin: 30px;
+  font-family: "Ysabeau", sans-serif;
 
   .card {
     display: flex;
-    font-size: 9pt;
+    font-size: 10pt;
     gap: 10px;
   }
 
   .div {
-    background-color: #f2b9accf;
+    background-color: #f8dccfbc;
     color: black;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: flex-start;
     align-items: center;
-    gap: 20px;
-    padding: 15px;
-    height: 200px;
+    gap: 10px;
+    padding: 20px;
+    height: 220px;
+    width: 160px;
 
     h1 {
       font-size: 25pt;
-      padding: 10px;
+      padding: 1px;
+      border-bottom: 1px solid #e1c9bebc;
     }
     h4 {
-      padding: 10px;
+      padding: 7px;
     }
   }
   .div:hover {
-    width: 260px;
-    background-color: #c99a8fcf;
+    width: 200px;
+    background-color: #d5a49992;
     cursor: pointer;
   }
 }
