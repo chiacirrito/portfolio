@@ -2,6 +2,7 @@ import {
   FaReact,
   FaCss3Alt,
   FaHtml5,
+  FaAngular,
   FaWordpress,
   FaSass,
   FaAws,
@@ -14,6 +15,7 @@ import {
   SiWoocommerce,
   SiJavascript,
   SiMysql,
+  SiMongodb,
   SiPhpmyadmin,
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
@@ -26,6 +28,9 @@ const SkillsTech = () => {
       <div className={styles.div}>
         <ul>
           <li>
+            <FaHtml5 />
+          </li>
+          <li>
             <FaReact />
           </li>
           <li>
@@ -35,7 +40,7 @@ const SkillsTech = () => {
             <SiRedux />
           </li>
           <li>
-            <FaHtml5 />
+            <FaAngular />
           </li>
           <li>
             <FaCss3Alt />
@@ -57,6 +62,9 @@ const SkillsTech = () => {
           </li>
           <li>
             <SiMysql />
+          </li>
+          <li>
+            <SiMongodb />
           </li>
           <li>
             <SiPhpmyadmin />
