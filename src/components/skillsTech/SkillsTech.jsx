@@ -18,6 +18,7 @@ import {
   SiMongodb,
   SiPhpmyadmin,
 } from "react-icons/si";
+import { ImStarFull, ImStarHalf } from "react-icons/im";
 import { TbBrandReactNative } from "react-icons/tb";
 
 import styles from "./index.module.scss";
@@ -27,8 +28,15 @@ const SkillsTech = () => {
     <div className={styles.Skills}>
       <div className={styles.div}>
         <ul>
+          <p>
+            <ImStarFull />
+            FrontEnd
+          </p>
           <li>
             <FaHtml5 />
+          </li>
+          <li>
+            <SiJavascript />
           </li>
           <li>
             <FaReact />
@@ -52,14 +60,17 @@ const SkillsTech = () => {
             <SiBootstrap />
           </li>
           <li>
-            <SiJavascript />
-          </li>
-          <li>
             <FaGit />
           </li>
           <li>
             <FaGithub />
           </li>
+        </ul>
+        <ul>
+          <p>
+            <ImStarHalf />
+            BackEnd
+          </p>
           <li>
             <SiMysql />
           </li>
@@ -69,6 +80,13 @@ const SkillsTech = () => {
           <li>
             <SiPhpmyadmin />
           </li>
+        </ul>
+        <ul>
+          <p>
+            {" "}
+            <ImStarFull />
+            CMS
+          </p>
           <li>
             <FaWordpress />
           </li>
