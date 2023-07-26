@@ -29,7 +29,7 @@ export const ProjectList = [
     data: "[04/2023]",
     link: "https://daily-planner-ruby.vercel.app/",
     img: <BsCalendarWeek />,
-    tech: "{React, Redux, BootStrap, Sass}",
+    tech: "{React, Vite.js, Redux, BootStrap, Sass}",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const ProjectList = [
     data: "[04/2023]",
     link: "https://redux-to-do-woad.vercel.app/",
     img: <MdOutlineChecklist />,
-    tech: "{React, Redux, Sass}",
+    tech: "{React, Vite.js, Redux, Sass}",
   },
   {
     id: 5,

@@ -14,6 +14,8 @@ import {
   SiBootstrap,
   SiWoocommerce,
   SiJavascript,
+  SiVite,
+  SiNextdotjs,
   SiMysql,
   SiMongodb,
   SiPhpmyadmin,
@@ -46,6 +48,12 @@ const SkillsTech = () => {
           </li>
           <li>
             <SiRedux />
+          </li>
+          <li>
+            <SiVite />
+          </li>
+          <li>
+            <SiNextdotjs />
           </li>
           <li>
             <FaAngular />
