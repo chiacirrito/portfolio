@@ -2,7 +2,7 @@ import { TbBrandBooking } from "react-icons/tb";
 import { CgPokemon } from "react-icons/cg";
 import { GrYoga } from "react-icons/gr";
 import { CiCalendarDate } from "react-icons/ci";
-import { GiWineBottle, GiCupcake, GiGreenPower } from "react-icons/gi";
+import { GiWineBottle, GiCupcake, GiCandleLight } from "react-icons/gi";
 import { MdOutlineChecklist, MdEditNote } from "react-icons/md";
 import { BsCalendarWeek } from "react-icons/bs";
 
@@ -12,9 +12,9 @@ export const ProjectList = [
     title: "Ecommerce Candle",
     data: "[07/2023]",
     link: "https://ecommerce-candle.vercel.app/",
-    img: <GiGreenPower/>,
+    img: <GiCandleLight />,
     tech: "{MongoDB, Next.js, Css, Sass}",
-  }
+  },
   {
     id: 2,
     title: "Pokemon",
