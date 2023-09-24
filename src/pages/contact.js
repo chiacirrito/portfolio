@@ -19,7 +19,6 @@ export default function Contact() {
         <Navbar />
         <Hero />
         <Social />
-        <Form />
         <Footer />
       </main>
     </>

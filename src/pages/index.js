@@ -8,6 +8,7 @@ import Schools from "@/components/school";
 import Projects from "@/components/projects/Projects";
 import Footer from "@/components/footer";
 import "@/styles/Home.module.scss";
+import Social from "@/components/social";
 
 export default function Home() {
   return (
@@ -19,13 +20,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Navbar />
-        <Hero />
+        <Hero /> <Social />
         <div className={styles.div}>
           <Data />
           <Schools />
         </div>
-
         <SkillsTech />
         <Projects />
         <Footer />
