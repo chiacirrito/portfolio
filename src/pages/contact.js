@@ -3,7 +3,6 @@ import styles from "@/styles/Home.module.scss";
 import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
 import Social from "@/components/social";
-import Form from "@/components/form";
 import Footer from "@/components/footer";
 
 export default function Contact() {

@@ -1,11 +1,5 @@
 import Link from "next/link";
-import {
-  FaGithub,
-  FaFacebook,
-  FaLinkedin,
-  FaInstagram,
-  FaPhoneVolume,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiMaildotru } from "react-icons/si";
 import styles from "./index.module.scss";
 
