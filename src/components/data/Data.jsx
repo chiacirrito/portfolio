@@ -1,7 +1,6 @@
 import { DataList } from "@/mocks/data";
 import { FaBirthdayCake, FaCar } from "react-icons/fa";
 import { GrLocationPin, GrMail } from "react-icons/gr";
-import { FiPhoneCall } from "react-icons/fi";
 import { RiEnglishInput } from "react-icons/ri";
 import Link from "next/link";
 import styles from "./index.module.scss";
@@ -25,10 +24,6 @@ const Data = () => {
               <Link href="mailto:chiara.cirrito1602@gmail.com">
                 {dati.mail}
               </Link>
-            </li>
-            <li>
-              <FiPhoneCall />
-              <Link href="tel: +393895578295">{dati.telefono}</Link>
             </li>
             <li>
               <FaCar />
