@@ -23,24 +23,9 @@ const Social = () => {
             <FaLinkedin />
           </li>
         </Link>
-        <Link href={"https://www.facebook.com/chiara.cirrito.7/"}>
-          <li>
-            <FaFacebook />
-          </li>
-        </Link>
-        <Link href={"https://www.instagram.com/chiarac16/"}>
-          <li>
-            <FaInstagram />
-          </li>
-        </Link>
         <Link href={"mailto:chiara.cirrito1602@gmail.com"}>
           <li>
             <SiMaildotru />
-          </li>
-        </Link>
-        <Link href={"tel:+393895578295"}>
-          <li>
-            <FaPhoneVolume />
           </li>
         </Link>
       </ul>
