@@ -44,13 +44,7 @@ const SkillsTech = () => {
             <FaReact />
           </li>
           <li>
-            <TbBrandReactNative />
-          </li>
-          <li>
             <SiRedux />
-          </li>
-          <li>
-            <SiVite />
           </li>
           <li>
             <SiNextdotjs />
@@ -100,9 +94,6 @@ const SkillsTech = () => {
           </li>
           <li className={styles.special}>
             <SiWoocommerce />
-          </li>
-          <li>
-            <FaAws />
           </li>
         </ul>
       </div>
