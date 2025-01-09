@@ -20,15 +20,6 @@ export const ProjectList = [
     tech: "{Elementor, Css}",
   },
   {
-    id: 2,
-    title: "Navibook",
-    data: "[02/2024]",
-    link: "https://navibook.vercel.app/",
-    img: <GiHeadphones />,
-    description: "Audio Guida di Navigare Srl",
-    tech: "{Next, Sass}",
-  },
-  {
     id: 3,
     title: "Navigare Mostre",
     data: "[09/2023]",

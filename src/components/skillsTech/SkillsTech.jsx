@@ -5,7 +5,7 @@ import {
   FaAngular,
   FaWordpress,
   FaSass,
-  FaAws,
+  FaShopify,
   FaGit,
   FaGithub,
 } from "react-icons/fa";
@@ -42,9 +42,6 @@ const SkillsTech = () => {
           </li>
           <li>
             <FaReact />
-          </li>
-          <li>
-            <SiRedux />
           </li>
           <li>
             <SiNextdotjs />
@@ -94,6 +91,9 @@ const SkillsTech = () => {
           </li>
           <li className={styles.special}>
             <SiWoocommerce />
+          </li>
+          <li>
+            <FaShopify />
           </li>
         </ul>
       </div>
