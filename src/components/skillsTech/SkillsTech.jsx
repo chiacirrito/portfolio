@@ -2,26 +2,23 @@ import {
   FaReact,
   FaCss3Alt,
   FaHtml5,
-  FaAngular,
   FaWordpress,
   FaSass,
   FaShopify,
   FaGit,
-  FaGithub,
 } from "react-icons/fa";
 import {
-  SiRedux,
   SiBootstrap,
   SiWoocommerce,
   SiJavascript,
-  SiVite,
   SiNextdotjs,
   SiMysql,
   SiMongodb,
   SiPhpmyadmin,
+  SiGoogleads,
+  SiGoogleanalytics,
 } from "react-icons/si";
 import { ImStarFull, ImStarHalf } from "react-icons/im";
-import { TbBrandReactNative } from "react-icons/tb";
 
 import styles from "./index.module.scss";
 
@@ -29,6 +26,18 @@ const SkillsTech = () => {
   return (
     <div className={styles.Skills}>
       <div className={styles.div}>
+        <ul>
+          <p>
+            <ImStarFull />
+            Digital Marketing
+          </p>
+          <li>
+            <SiGoogleads />
+          </li>
+          <li>
+            <SiGoogleanalytics />
+          </li>
+        </ul>
         <ul>
           <p>
             <ImStarFull />
@@ -44,12 +53,6 @@ const SkillsTech = () => {
             <FaReact />
           </li>
           <li>
-            <SiNextdotjs />
-          </li>
-          <li>
-            <FaAngular />
-          </li>
-          <li>
             <FaCss3Alt />
           </li>
           <li>
@@ -60,9 +63,6 @@ const SkillsTech = () => {
           </li>
           <li>
             <FaGit />
-          </li>
-          <li>
-            <FaGithub />
           </li>
         </ul>
         <ul>
