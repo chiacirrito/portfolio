@@ -11,7 +11,7 @@ import {
   SiBootstrap,
   SiWoocommerce,
   SiJavascript,
-  SiNextdotjs,
+  SiPrestashop,
   SiMysql,
   SiMongodb,
   SiPhpmyadmin,
@@ -94,6 +94,9 @@ const SkillsTech = () => {
           </li>
           <li>
             <FaShopify />
+          </li>
+          <li>
+            <SiPrestashop />
           </li>
         </ul>
       </div>

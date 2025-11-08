@@ -1,15 +1,19 @@
 import { TbBrandBooking } from "react-icons/tb";
-import { GrYoga } from "react-icons/gr";
-import {
-  GiWineBottle,
-  GiCandleLight,
-  GiHeadphones,
-  GiAlienEgg,
-} from "react-icons/gi";
+import { GrYoga, GrProjects } from "react-icons/gr";
+import { GiWineBottle, GiCandleLight, GiAlienEgg } from "react-icons/gi";
 import { BsCalendarWeek } from "react-icons/bs";
 import { ImFilePicture } from "react-icons/im";
 
 export const ProjectList = [
+  {
+    id: 1,
+    title: "Project Work Digital Marketing",
+    data: "[11/2025]",
+    link: "https://www.canva.com/design/DAG4HYw97ZE/YaXpuIGhLGFO4FtOjrOK6w/view?utm_content=DAG4HYw97ZE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc2281ba86e",
+    img: <GrProjects />,
+    description: "Progetto di strategia digitale",
+    tech: "{Canva, ChatGPT}",
+  },
   {
     id: 1,
     title: "Mostra Giger",
